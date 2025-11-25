@@ -5,3 +5,5 @@ django-prometheus
 prometheus-client
 djangorestframework
 django-cors-headers
+transformers==4.44.0  # ou la dernière version compatible avec ton projet
+
