@@ -1,13 +1,8 @@
-Django>=4.2
-psycopg2-binary
+Django>=5.2.8
+djangorestframework
+django-cors-headers
 gunicorn
 django-prometheus
 prometheus-client
-djangorestframework
-django-cors-headers
-transformers==4.44.0  # ou la dernière version compatible avec ton projet
 transformers==4.44.0
-torch>=2.2.0   # backend PyTorch pour Transformers (CPU)
-tensorflow>=2.14.0  
-tf-keras
-
+torch==2.2.0+cpu --index-url https://download.pytorch.org/whl/cpu
