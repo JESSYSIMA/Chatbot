@@ -6,4 +6,6 @@ prometheus-client
 djangorestframework
 django-cors-headers
 transformers==4.44.0  # ou la dernière version compatible avec ton projet
-
+transformers==4.44.0
+torch>=2.2.0   # backend PyTorch pour Transformers (CPU)
+tensorflow>=2.14.0  
