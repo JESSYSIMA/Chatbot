@@ -5,4 +5,4 @@ gunicorn
 django-prometheus
 prometheus-client
 transformers==4.44.0
-torch==2.2.0+cpu --index-url https://download.pytorch.org/whl/cpu
+torch==2.2.0
