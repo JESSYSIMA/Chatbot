@@ -3,8 +3,8 @@ from rest_framework.response import Response
 from transformers import pipeline
 
 
-summarizer = pipeline("summarization", model="sshleifer/distilbart-cnn-12-6")
-translator = pipeline("translation_en_to_fr")
+summarizer = pipeline("summarization", model="sshleifer/distilbart-cnn-6-6")
+translator = pipeline("translation", model="Helsinki-NLP/opus-mt-en-fr")
 
 @api_view(['POST'])
 def chat(request):
